@@ -1,0 +1,6 @@
+::::::::::::: Using a Slider:
+1. Call jQuery fior Slider
+2. Basic Javascript
+3. Call Stylesheet
+4. Put Images/Content Correct
+5. Test and Enjoy

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(215, 243, 139);
+}
+
+
+/* -----------------Header Start --------------------*/
+
+#wrapper {
+    width: 960px;
+    margin: 20px auto;
+}
+
+#header {
+    background-color: orange;
+    padding: 15px;
+    border-bottom: 5px solid #6B710E;
+}
+
+#header h2 {
+    color: white;
+    font-family: Georgia;
+}
+
+#header p {
+    color: #788420;
+    font-family: Georgia;
+}
+
+
+/* ----------------------Header End ----------------------*/
+
+
+/* -----------------Dropdown Start-------------  */
+
+#nav {
+    background-color: white;
+    height: 38px;
+    border-bottom: 5px solid #6B710E;
+}
+
+#nav ul {
+    list-style-type: none;
+}
+
+#nav ul li {
+    float: left;
+    border-right: 1px solid #788420;
+}
+
+#nav ul li:last-child {
+    border: none;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #788420;
+    display: block;
+    /* Block element cara Padding hoy na */
+    padding: 10px 20px;
+    font-family: arial;
+}
+
+#nav ul li a:hover {
+    color: #f13412;
+}
+
+#nav ul li {
+    position: relative;
+}
+
+#nav ul li ul {
+    position: absolute;
+    left: -9999px;
+    background-color: #bef0c8;
+}
+
+#nav ul li:hover ul {
+    left: 0;
+}
+
+#nav ul li ul li {
+    float: left;
+    border-right: none;
+    border-bottom: 1px solid #788420;
+    width: 200px;
+}
+
+#nav ul li ul li:first-child {
+    border-top: 1px solid #788420;
+}
+
+
+/* ----------------Dropdown End ---------------- */
+
+
+/*---------- Slider Start -------------------*/
+
+#slider img {
+    width: 960px;
+    height: 250px;
+    /* vertical-align: baseline;  eta thakle gap hoy tai eta remove kora lage */
+    vertical-align: middle;
+}
+
+
+/*---------- Slider End -------------------*/
+
+
+/*---------- content Wrapper Start-------------------*/
+
+#content_wrapper {
+    background-color: white;
+    border-top: 5px solid #788420;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#content {
+    width: 620px;
+    margin-right: 20px;
+    float: left;
+}
+
+#content h2 {
+    color: #6B710E;
+    font-family: Arial;
+    margin-bottom: 15px;
+}
+
+#sidebar {
+    width: 300px;
+    float: left;
+    list-style-type: circle;
+}
+
+#sidebar h2 {
+    color: #6B710E;
+    font-family: Arial;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #6B710E;
+    padding: 3px;
+    display: block;
+}
+
+
+/*---------- content Wrapper End -------------------*/
+
+
+/*------------ Footer Start --------------*/
+
+#footer {
+    background-color: rgb(56, 4, 4);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*------------ Footer End --------------*/

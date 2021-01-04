@@ -1,0 +1,4 @@
+@font-face {
+    font-family: "WendyLPStd-Medium";
+    src: url("../font/WendyLPStd-Medium.eto") format("eto"), url("../font/WendyLPStd-Medium.woff") format("woff"), url("../font/WendyLPStd-Medium.ttf") format("truetype"), url("../font/WendyLPStd-Medium.svg#font/WendyLPStd-Medium") format("svg");
+}

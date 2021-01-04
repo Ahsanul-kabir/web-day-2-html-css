@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada|Odibee+Sans|Playfair+Display&display=swap');
+h2 {
+    font-family: 'Lemonada', cursive;
+}
+
+h3 {
+    font-family: 'Odibee Sans', cursive;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+}
